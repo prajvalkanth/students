@@ -1,0 +1,246 @@
+
+// the setup function runs once when you press reset or power the board
+
+int i = 100;
+ 
+void setup() 
+
+{
+
+
+pinMode(13, OUTPUT);
+
+pinMode(12, OUTPUT);
+
+pinMode(11, OUTPUT);
+
+pinMode(10, OUTPUT);
+
+}
+
+// the loop function runs over and over again until power down or reset
+
+void loop() 
+
+{
+  Play2();
+  Play3();
+  Play2();
+  Play3();
+  Play2();
+  Play3();
+  Play2();
+  Play3();
+  
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  
+  
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  
+  Play5();
+  Play5();
+  Play5();
+  Play5();
+  
+    
+  Play6();
+  Play6();
+  Play6();
+  Play6();
+
+  Play7();
+  Play7();
+  Play7();
+  Play7();
+ 
+  Play8();
+  Play8();
+  Play8();
+  Play8();
+  
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  Play1();
+  
+}
+
+void Play0()
+
+{
+
+delay(i);
+
+
+
+digitalWrite(13, LOW);
+
+digitalWrite(12, LOW);
+
+digitalWrite(11, LOW);
+
+digitalWrite(10, LOW);
+
+}
+
+void Play1()
+
+{
+
+Play0();
+
+delay(100);
+
+
+
+digitalWrite(13, HIGH);
+
+digitalWrite(12, HIGH);
+
+digitalWrite(11, HIGH);
+
+digitalWrite(10, HIGH);
+
+}
+
+void Play2()
+
+{
+
+Play0();
+
+delay(300);
+
+
+
+digitalWrite(13, HIGH);
+
+digitalWrite(12, HIGH);
+
+digitalWrite(11, LOW);
+
+digitalWrite(10, LOW);
+
+}
+
+void Play3()
+
+{
+
+Play0();
+
+delay(300);
+
+
+digitalWrite(13, LOW);
+
+digitalWrite(12, LOW);
+
+digitalWrite(11, HIGH);
+
+digitalWrite(10, HIGH);
+
+}
+
+void Play4()
+
+{
+
+Play0();
+
+delay(i);
+
+
+digitalWrite(13, LOW);
+
+digitalWrite(12, LOW);
+
+digitalWrite(11, HIGH);
+
+digitalWrite(10, HIGH);
+
+}
+void Play5()
+
+{
+
+Play0();
+
+delay(500);
+
+
+digitalWrite(13, HIGH);
+
+digitalWrite(12, HIGH);
+
+digitalWrite(11, LOW);
+
+digitalWrite(10, LOW);
+
+}
+void Play6()
+
+{
+
+Play0();
+
+delay(500);
+
+
+digitalWrite(13, LOW);
+
+digitalWrite(12, LOW);
+
+digitalWrite(11, HIGH);
+
+digitalWrite(10, HIGH);
+
+}
+void Play7()
+
+{
+
+Play0();
+
+delay(500);
+
+
+digitalWrite(13, HIGH);
+
+digitalWrite(12, LOW);
+
+digitalWrite(11, LOW);
+
+digitalWrite(10, HIGH);
+
+}
+void Play8()
+
+{
+
+Play0();
+
+delay(500);
+
+
+digitalWrite(13, LOW);
+
+digitalWrite(12, HIGH);
+
+digitalWrite(11, HIGH);
+
+digitalWrite(10, LOW);
+
+}
+
+
